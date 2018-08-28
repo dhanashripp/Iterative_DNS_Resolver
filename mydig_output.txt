@@ -1,0 +1,63 @@
+﻿Sample Queries and Outputs of mydig.py
+
+
+Dhanashris-MacBook-Air:Patil-Dhanashri-HW1 dhanashri$ python mydig.py cs.stonybrook.edu A
+
+
+QUESTION SECTION:
+cs.stonybrook.edu. IN A
+
+
+ANSWER SECTION:
+cs.stonybrook.edu. 900 IN A 107.22.178.157
+
+
+Query time: 510 msec
+WHEN: 2018-02-20 01:10:54.010075
+MSG SIZE  rcvd: 65
+
+
+
+
+Dhanashris-MacBook-Air:Patil-Dhanashri-HW1 dhanashri$ python mydig.py cs.stonybrook.edu NS
+
+
+QUESTION SECTION:
+cs.stonybrook.edu. IN NS
+
+
+ANSWER SECTION:
+cs.stonybrook.edu. 900 IN NS nocnoc.stonybrook.edu.
+cs.stonybrook.edu. 900 IN NS whoisthere.stonybrook.edu.
+cs.stonybrook.edu. 900 IN NS mewho.stonybrook.edu.
+
+
+Query time: 278 msec
+WHEN: 2018-02-20 01:11:01.541633
+MSG SIZE  rcvd: 182
+
+
+
+
+Dhanashris-MacBook-Air:Patil-Dhanashri-HW1 dhanashri$ python mydig.py cs.stonybrook.edu MX
+
+
+QUESTION SECTION:
+cs.stonybrook.edu. IN MX
+
+
+ANSWER SECTION:
+cs.stonybrook.edu. 900 IN MX 5 alt2.aspmx.l.google.com.
+cs.stonybrook.edu. 900 IN MX 5 alt1.aspmx.l.google.com.
+cs.stonybrook.edu. 900 IN MX 2 aspmx.l.google.com.
+cs.stonybrook.edu. 900 IN MX 10 aspmx3.googlemail.com.
+cs.stonybrook.edu. 900 IN MX 10 aspmx2.googlemail.com.
+
+
+Query time: 398 msec
+WHEN: 2018-02-20 01:11:08.111228
+MSG SIZE  rcvd: 296
+
+
+Dhanashris-MacBook-Air:Patil-Dhanashri-HW1 dhanashri$ python mydig.py www.google.com AM
+Unsupported Type, this program supports only A, NS or MX
